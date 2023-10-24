@@ -1,10 +1,13 @@
 from flask import Flask, request, jsonify
 from warnings import filterwarnings
 from joblib import load
+
 filterwarnings('ignore')
 
 def importa_modelo():
   modelo = load(open('./meu_modelo_serializado.joblib', 'rb'))
+
+  return modelo
 
 app = Flask(__name__)
 

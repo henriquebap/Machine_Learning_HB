@@ -1,0 +1,11 @@
+https://yolov8.com/
+
+https://www.ultralytics.com/pt
+
+https://roboflow.com/
+
+https://teachablemachine.withgoogle.com/
+
+https://developers.google.com/mediapipe
+
+https://github.com/labelmeai/labelme?ref=blog.roboflow.com

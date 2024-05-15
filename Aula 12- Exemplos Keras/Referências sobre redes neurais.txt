@@ -1,0 +1,25 @@
+Material sobre treinamento de redes neurais:
+
+https://www.deeplearningbook.com.br/algoritmo-backpropagation-parte-2-treinamento-de-redes-neurais/
+
+
+Documentação sobre perdas (losses):
+
+https://keras.io/api/losses/
+
+
+Material sobre gradiente descendente:
+
+https://www.deeplearningbook.com.br/aprendizado-com-a-descida-do-gradiente/
+
+https://towardsdatascience.com/gradient-descent-algorithm-a-deep-dive-cf04e8115f21
+
+
+Material sobre funções de ativação:
+
+https://www.deeplearningbook.com.br/funcao-de-ativacao/
+
+
+Documentação sobre otimizadores:
+
+https://keras.io/api/optimizers/

@@ -1,6 +1,6 @@
 # Projeto de Análise e Modelagem de Diabetes Pima Indians
 
-Este projeto tem como objetivo prever o início do diabetes usando o Pima Indians Diabetes Database. O modelo de previsão é construído usando uma Rede Neural Convolucional (CNN) implementada com a biblioteca Keras
+Este projeto tem como objetivo prever o início do diabetes usando o Pima Indians Diabetes Database. O modelo de previsão é construído usando uma Rede Neural implementada com a biblioteca Keras
 
 ## Dataset
 
@@ -18,7 +18,7 @@ O dataset utilizado é o [Pima Indians Diabetes Database](https://www.kaggle.com
 
 ## Objetivo
 
-O objetivo deste projeto é desenvolver um modelo de aprendizado de máquina que possa prever se um paciente tem diabetes com base em medições diagnósticas. Usaremos uma Rede Neural Convolucional (CNN) para esse fim, aproveitando a biblioteca Keras para construir e treinar a rede neural.
+O objetivo deste projeto é desenvolver um modelo de aprendizado de máquina que possa prever se um paciente tem diabetes com base em medições diagnósticas. Usaremos uma Rede Neural para esse fim, aproveitando a biblioteca Keras para construir e treinar a rede neural.
 
 ## Pré-requisitos
 

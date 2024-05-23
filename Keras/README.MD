@@ -79,7 +79,8 @@ project/
 
 Após o treinamento do modelo, foram obtidas as seguintes métricas de desempenho no conjunto de testes:
 
-Relatório de Classificação:
+#### Relatório de Classificação:
+```
 -------precision | recall | f1-score | support
 
     0       0.82       0.81        0.81         99
@@ -89,6 +90,7 @@ Relatório de Classificação:
 
 macro avg 0.74 0.74 0.74 154
 weighted avg 0.76 0.76 0.76 154
+```
 
 ##### Acurracy:
 

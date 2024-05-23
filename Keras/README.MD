@@ -49,6 +49,11 @@ project/
 ├── data/
 │   └── diabetes.csv         # Dataset
 │
+│── img/
+│    └──accuracy.png
+│    └──loss.png
+│    └──matriz_de_confusao.png
+│
 ├── notebooks/
 │   └── Diabetes_CNN_Keras.ipynb       # Notebook do projeto
 │
@@ -58,9 +63,8 @@ project/
 ```
 
 - `data/`: Contém o dataset.
+- `img/`: Contem as inmagens de plot da avalicao do modelo.
 - `notebooks/`: Inclui notebooks Jupyter para exploração e visualização dos dados.
-
-## Uso
 
 1. **Clone o repositório:**
 
@@ -75,12 +79,26 @@ project/
 
 Após o treinamento do modelo, foram obtidas as seguintes métricas de desempenho no conjunto de testes:
 
-- Acurácia: 78%
-- Precisão: 75%
-- Recall: 70%
-- F1 Score: 72%
+Relatório de Classificação:
+-------precision | recall | f1-score | support
 
-Incluir grafico ou foto
+    0       0.82       0.81        0.81         99
+    1       0.66       0.67        0.67         55
+
+    accuracy                                 0.76       154
+
+macro avg 0.74 0.74 0.74 154
+weighted avg 0.76 0.76 0.76 154
+
+##### Acurracy:
+
+![accuracy](img/accuracy.png "Acurracy Plot")
+
+##### Loss:
+
+![loss](img/loss.png)
+
+![Matriz De Confusao](img/matriz_de_confusao.png "Matriz de Confusao")
 
 ## Conclusões
 

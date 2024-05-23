@@ -4,7 +4,7 @@ Este projeto tem como objetivo prever o início do diabetes usando o Pima Indian
 
 ## Dataset
 
-O dataset utilizado é o [Pima Indians Diabetes Database]() disponível no Kaggle. Ele contém 768 instâncias com 8 atributos de entrada e 1 atributo de saída:
+O dataset utilizado é o [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) disponível no Kaggle. Ele contém 768 instâncias com 8 atributos de entrada e 1 atributo de saída:
 
 - Pregnancies: Número de vezes grávida
 - Glucose: Concentração de glicose plasmática 2 horas após um teste de tolerância à glicose oral
@@ -70,9 +70,9 @@ project/
 
    ```bash
 
-   git clone https://github.com/henriquebap/Machine_Learning_HB
+   git clone https://github.com/henriquebap/Machine_Learning_HB/tree/main/Keras
 
-   cd diabetes-prediction-cnn
+   cd notebooks/Diabetes_Keras.ipynb
    ```
 
 ## Resultados
@@ -101,6 +101,22 @@ weighted avg 0.76 0.76 0.76 154
 ![Matriz De Confusao](img/matriz_de_confusao.png "Matriz de Confusao")
 
 ## Conclusões
+
+Este repositório fornece exemplos práticos e detalhados de como implementar modelos de classificação e regressão usando a biblioteca Keras.
+
+### Potenciais Melhorias e Extensões
+
+- **Exploração de Arquiteturas Avançadas**:
+
+  - Embora o foco principal esteja em redes neurais densas, futuras extensões penso em incluir arquiteturas mais avançadas, como Redes Neurais Convolucionais (CNNs) e Redes Neurais Recorrentes (RNNs), para lidar com dados de diferentes naturezas.
+
+- **Aprimoramento de Feature Engineering**:
+
+  - Implementar e avaliar técnicas avançadas de feature engineering talvez ofereca melhorias adicionais na performance dos modelos.
+
+- **Validação Cruzada**:
+
+  - A inclusão da validação cruzada no processo de treinamento podera fornecer uma estimativa mais robusta do desempenho do modelo e ajudar a evitar a seleção de modelos propensos ao overfitting.
 
 ## Referências
 

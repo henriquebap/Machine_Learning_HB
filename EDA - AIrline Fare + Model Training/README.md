@@ -11,15 +11,15 @@ Key Insights: The EDA revealed that significant data preprocessing and feature e
 ---
 ### Bivariate Analysis:
 
-![heatmap](###)HeatMap
+![heatmap](https://github.com/henriquebap/Machine_Learning_HB/blob/main/EDA%20-%20AIrline%20Fare%20%2B%20Model%20Training/heatmap.png)HeatMap
 
 ### Multivariate Analysis:
 
-![Pairplot](###)PairPLot
+![Pairplot](https://github.com/henriquebap/Machine_Learning_HB/blob/main/EDA%20-%20AIrline%20Fare%20%2B%20Model%20Training/pairplot.png)PairPLot
 
 ### 2. Model Development
 
-- Initial Model: A Linear Regression model was the first approach, yielding an RMSE of 27.76. While this indicates some level of predictive capability, it also underscores the complexity of predicting fares in the airline industry due to the diverse range of influencing factors.
+- **Initial Model:** A Linear Regression model was the first approach, yielding an RMSE of 27.76. While this indicates some level of predictive capability, it also underscores the complexity of predicting fares in the airline industry due to the diverse range of influencing factors.
 Next Steps: Further work will involve more advanced models, feature engineering, and hyperparameter tuning to enhance prediction accuracy. Potential techniques include Random Forest, Gradient Boosting Machines, and Neural Networks.
 
 ### 3. Potential Applications
